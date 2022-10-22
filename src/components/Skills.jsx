@@ -5,6 +5,10 @@ import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import TypeScript from '../assets/ts-logo-256.png';
 import GitHub from '../assets/github.png';
+import Tailwind from '../assets/tailwind.png';
+import Firebase from '../assets/firebase.png';
+import Bootstrap from '../assets/bootstrap.png';
+import Sass from '../assets/sass.png';
 
 
 const Skills = () => {
@@ -33,7 +37,7 @@ const Skills = () => {
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-95 duration-500'>
                         <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
-                        <p className='my-4'>REACT</p>
+                        <p className='my-4'>REACT/REDUX</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-95 duration-500'>
                         <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
@@ -42,6 +46,22 @@ const Skills = () => {
                     <div className='shadow-md shadow-[#040c16] hover:scale-95 duration-500'>
                         <img className='w-20 mx-auto' src={TypeScript} alt="HTML icon" />
                         <p className='my-4'>TYPESCRIPT</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-95 duration-500'>
+                        <img className='w-20 mx-auto' src={Firebase} alt="HTML icon" />
+                        <p className='my-4'>FIREBASE</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-95 duration-500'>
+                        <img className='w-20 h-20 mx-auto' src={Tailwind} alt="HTML icon" />
+                        <p className='my-4'>TAILWIND</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-95 duration-500'>
+                        <img className='w-20 h-20 mx-auto' src={Bootstrap} alt="HTML icon" />
+                        <p className='my-4'>BOOTSTRAP</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-95 duration-500'>
+                        <img className='w-20 h-20 mx-auto' src={Sass} alt="HTML icon" />
+                        <p className='my-4'>SCSS, SASS</p>
                     </div>
                 </div>
             </div>
